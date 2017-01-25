@@ -19,7 +19,7 @@
         //Extend the bot here, either by calling another function or here directly.
 
         // You can add more spam words to the bot.
-        var spamWords = ['spam1', 'spam2', 'spam3', 'spam4'];
+        var spamWords = ['spam1', 'spam2', 'spam3', 'spam4', 'spam5'];
         for (var i = 0; i < spamWords.length; i++) {
           window.bot.chatUtilities.spam.push(spamWords[i]);
         }
@@ -79,18 +79,18 @@
       skipPosition: 3,
       skipReasons: [
       ["theme", "Cette muqique n'est pas autorisée en ma présence! "],
-      ["op", "This song is on the OP list. "],
+      ["op", "Ce son est overjoué... "],
       ["history", "Cette musique est dans l'historique! "],
-      ["mix", "You played a mix, which is against the rules. "],
-      ["sound", "The song you played had bad sound quality or no sound. "],
-      ["nsfw", "The song you contained was NSFW (image or sound). "],
-      ["unavailable", "The song you played was not available for some users. "]
+      ["mix", "Les mix ne sont pas autorisés! "],
+      ["sound", "Ta musique est de mauvaise qualité ou il n'y en a pas désolé... "],
+      ["nsfw", "Ta musique était NSFW (images ou sons). "],
+      ["unavailable", "La musique était indisponible pour certains utilisateurs... "]
       ],
       afkpositionCheck: 15,
       afkRankCheck: "ambassador",
       motdEnabled: false,
       motdInterval: 5,
-      motd: "Temporary Message of the Day",
+      motd: "Message du jour! ",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
