@@ -46,14 +46,14 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
+      botName: "Francis",
       language: "french",
       chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 100, // 1-200
-      startupVolume: 10, // 0-100
-      startupEmoji: true, // true or false
+      startupVolume: 0, // 0-100
+      startupEmoji: false, // true or false
       autowoot: true,
       autoskip: false,
       smartSkip: true,
@@ -115,3 +115,4 @@
     $.getScript("https://rawgit.com/basicBot/source/master/basicBot.js", extend);
 
 }).call(this);
+a
