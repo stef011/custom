@@ -105,9 +105,9 @@
       songstats: true,
       commandLiteral: "!",
       blacklists: {
-        NSFW: "https://rawgit.com/stef011/custom/blacklists/NSFWlist.json",
-        OP: "https://rawgit.com/stef011/custom/blacklists/OPlist.json",
-        BANNED: "https://rawgit.com/stef011/custom/blacklists/BANNEDlist.json"
+        NSFW: "https://rawgit.com/stef011/custom/master/blacklists/NSFWlist.json",
+        OP: "https://rawgit.com/stef011/custom/master/blacklists/OPlist.json",
+        BANNED: "https://rawgit.com/stef011/custom/master/blacklists/BANNEDlist.json"
       }
     }));
 
