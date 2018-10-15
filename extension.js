@@ -46,7 +46,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "Francis",
+      botName: "Electrobot",
       language: "french",
       chatLink: "https://rawgit.com/basicBot/source/master/lang/fr.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
@@ -59,7 +59,7 @@
       smartSkip: true,
       cmdDeletion: true,
       maximumAfk: 120,
-      afkRemoval: true,
+      afkRemoval: false,
       maximumDc: 60,
       bouncerPlus: true,
       blacklistEnabled: true,
@@ -68,7 +68,7 @@
       maximumLocktime: 10,
       cycleGuard: true,
       maximumCycletime: 10,
-      voteSkip: false,
+      voteSkip: true,
       voteSkipLimit: 5,
       historySkip: false,
       timeGuard: true,
@@ -78,7 +78,7 @@
       usercommandsEnabled: true,
       skipPosition: 3,
       skipReasons: [
-      ["theme", "Cette muqique n'est pas autorisée en ma présence! "],
+      ["theme", "Cette musique n'est pas autorisée en ma présence! "],
       ["op", "Ce son est overjoué... "],
       ["history", "Cette musique est dans l'historique! "],
       ["mix", "Les mix ne sont pas autorisés! "],
